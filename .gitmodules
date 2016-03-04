@@ -1,0 +1,3 @@
+[submodule "kui-core"]
+	path = kui-core
+	url = git@github.com:kiandra-it/kui-core.git

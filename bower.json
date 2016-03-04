@@ -1,0 +1,26 @@
+{
+  "name": "ng-kui-core",
+  "authors": [
+    "Sam Critchley <critchley.sj@gmail.com>"
+  ],
+  "description": "angular kiandra ui core package",
+  "main": "ng-kui-core.js",
+  "moduleType": [],
+  "keywords": [
+    "kui",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kiandra-it/kui-core",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "kui-core"
+  ],
+  "dependencies": {
+    "angular": "1.4"
+  }
+}
