@@ -115,7 +115,7 @@
   }
 
   angular.module('ngKUICore')
-    .filter('unit', ['number', function (number) {
+    .filter('unit', ['numberFilter', function (numberFilter) {
         return function (input, unit, decimals, mutate) {
           if (isNaN(input)) {
             return NaN;
@@ -138,7 +138,7 @@
           }
 
           if (decimals) {
-            value = number(value, decimals);
+            value = numberFilter(value, decimals);
           }
 
           if (upperCase) {
