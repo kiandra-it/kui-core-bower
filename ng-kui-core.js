@@ -137,7 +137,7 @@
             unit = powers[power - 1] + unit.substring(1);
           }
 
-          if (decimals) {
+          if (decimals !== undefined) {
             value = numberFilter(value, decimals);
           }
 
